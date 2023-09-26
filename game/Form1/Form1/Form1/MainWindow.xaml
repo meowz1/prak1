@@ -1,0 +1,24 @@
+﻿<Window x:Class="logic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:logic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="333,42,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="233,42,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" Click="button1_Click" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button3" Content="" HorizontalAlignment="Left" Margin="433,42,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button4" Content="" HorizontalAlignment="Left" Margin="233,142,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button5" Content="" HorizontalAlignment="Left" Margin="333,142,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button6" Content="" HorizontalAlignment="Left" Margin="433,142,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button7" Content="" HorizontalAlignment="Left" Margin="233,242,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button8" Content="" HorizontalAlignment="Left" Margin="333,242,0,0" VerticalAlignment="Top" Width="100" Height="100" IsEnabled="False" FontSize="72" FontFamily="Arial Black"/>
+        <Button x:Name="button9" Content="" HorizontalAlignment="Left" Margin="433,242,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="72" FontWeight="Bold" IsEnabled="False" FontFamily="Arial Black"/>
+        <Label x:Name="label1" Content="Ok,     letsgo" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Width="244"/>
+        <Button x:Name="button10" Content="Начать игру" HorizontalAlignment="Left" Margin="283,347,0,0" VerticalAlignment="Top" FontSize="22" Width="200" Height="50" Click="button10_Click"/>
+        <Button x:Name="button11" Content="Рестарт&#xD;&#xA;" HorizontalAlignment="Left" Margin="499,306,0,0" VerticalAlignment="Center" Height="50" Width="200" Click="Button11_Click" IsEnabled="False" Visibility="Hidden" FontSize="24"/>
+
+    </Grid>
+</Window>
